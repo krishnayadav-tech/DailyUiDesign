@@ -1,0 +1,93 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.1rem;
+    background-color: #F3F4F9;;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    box-shadow: 0 5px 10px 0 rgba(78, 35, 35, 0.25);
+    margin-top: 10rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 4rem;
+    max-width : 40rem;
+    width: 100%;
+}
+
+.heading{
+    color : #51577C;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.infobox{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: flex-start;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.infobox h1{
+    font-size: 2.2rem;
+}
+
+.btn{
+    background-color: #673CDF;
+    color : #fff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+}
+
+.infobox2{
+    display: block;
+}
+
+.infobox__text2{
+    width: 60%;
+    font-size: 1.8rem;
+}
+
+.card2__price{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+    border: 2px solid #E5E9FA;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.card2__price--value{
+    font-weight: bold;
+}
+
+.btn2{
+    padding: 2rem 1rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.btn2, .card2__price, .infobox__text2{
+    margin-top: 2rem;
+}
