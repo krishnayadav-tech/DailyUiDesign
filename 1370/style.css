@@ -1,0 +1,142 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;;
+    font-size: 2.1rem;
+    background-color: #F4F5FB;
+}
+
+.container{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    padding: 3rem;
+    width: 50rem;
+    background-color: #FFFFFF;
+}
+.container2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.file__list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.8rem;
+}
+
+.list__item, .list__item__icon{
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__item {
+    padding: 1rem 0;
+}
+
+.list__item:not(:last-child){
+    border-bottom: 1px solid #F4F5FB;
+}
+
+.successupload{
+    box-sizing: content-box;
+    border: 2px solid #119C41;
+    padding: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #E6F4EA;
+}
+
+.btn{
+    display: block;
+    border : 6px solid #DCDFF4;
+    padding: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    color : black;
+}
+
+.img{
+    width: 100%;
+}
+
+.pending__file{
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    border : 2px solid #5389CD;
+    animation: loading 3s linear infinite;
+    position: relative;
+}
+
+.pending__animation__wrapper{
+    overflow: hidden;
+    padding: 2px;
+}
+
+.pending__file::before{
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+    width: 40px;
+    height: 50px;
+    content: "";
+    background-color: #FFFFFF;
+    animation: loading 3s linear infinite;
+}
+
+.pending__file::after{
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -20px;
+    width: 40px;
+    height: 47px;
+    content: "";
+    background-color: #FFFFFF;
+    animation: loading2 3s linear infinite;
+}
+
+@keyframes loading {
+    
+    50%{
+       top: 104%;
+    }
+    100%{
+        top: 104%;
+    }
+}
+
+
+
+@keyframes loading2{
+    50%{
+        height: 47px;
+    }
+    100%{
+        height: 0px;
+    }
+}

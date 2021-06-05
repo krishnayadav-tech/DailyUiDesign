@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Day-1370-Upload-In-Progress-UI-Design" transform="translate(-621.000000, -593.000000)">
+            <g id="Group-4" transform="translate(558.000000, 291.000000)">
+                <g id="Group-3-Copy-2" transform="translate(48.000000, 281.000000)">
+                    <g id="Group" transform="translate(15.000000, 21.000000)">
+                        <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                        <line x1="27.5" y1="14.6666667" x2="27.5183333" y2="14.6666667" id="Path" stroke="#898B99" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <rect id="Rectangle" stroke="#898B99" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" x="7.33333333" y="7.33333333" width="29.3333333" height="29.3333333" rx="5.5"></rect>
+                        <path d="M7.33333333,27.5 L14.6666667,20.1666667 C16.3683726,18.5291994 18.4649607,18.5291994 20.1666667,20.1666667 L29.3333333,29.3333333" id="Path" stroke="#898B99" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M25.6666667,25.6666667 L27.5,23.8333333 C29.2017059,22.195866 31.2982941,22.195866 33,23.8333333 L36.6666667,27.5" id="Path" stroke="#898B99" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
