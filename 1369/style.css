@@ -7,9 +7,11 @@ html{
 body{
     font-family: Helvetica, sans-serif;
     font-size: 2.1rem;
+    margin : 0;
+    padding: 0;
 }
 .wrapper{
-    padding: 10rem 0;
+    padding: 10rem 0; 
     background-color: #F2F3F7;
 }
 
@@ -121,4 +123,60 @@ body{
     color : white;
     text-decoration: none;
     font-size: 2.1rem;
+}
+
+@media (max-width : 950px) {
+
+    html{
+        font-size: 50%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 950px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width : 750px) {
+    
+    .img_wrapper{
+        width: 80px;
+    }
+}
+
+@media (max-width : 650px) {
+
+    .card{
+        padding: 2rem;
+    }
+
+    .img_wrapper{
+        width: 50px;
+    }
+
+    .row h1{
+        font-size: 2rem;
+    }
+
+    .row h3{
+        font-size: 1.6rem;
+    }
+
+    .sampleimgbox{
+        gap: 2px;
+    }
+
+    .rowicon{
+        margin-right: 10px;
+    }
 }

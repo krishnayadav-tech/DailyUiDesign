@@ -14,6 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--color-primary);
 }
 
 .wrapper{
@@ -223,4 +224,43 @@ body{
     background-color: #DDDCEC;
     display: block;
     top:67%;
+}
+
+
+@media (max-width : 1200px) {
+    .statistics__card, .shipping__card{
+        position: relative;
+    }
+
+    .shipping__card{
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width : 650px) {
+    html{
+        font-size: 50%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .statistics__card{
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .shipping__card{
+        margin: 2rem auto;
+        width: 90%;
+        max-width: 650px;
+    }
+
+    .stats__chart--column p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        transform: rotate(-45deg);
+    }
 }
