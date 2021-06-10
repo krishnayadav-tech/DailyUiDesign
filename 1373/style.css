@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url("https://use.typekit.net/sio0uca.css");
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5;
+}
+body,input{
+    font-family: muli, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color: #EFF5FA;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.card{
+    border-radius: 20px;
+    margin: 0 auto;
+    color : white;
+    padding: 3rem 3.5rem;
+    background-color: #151B29;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.card .heading{
+    margin: 0;
+    font-family: Merriweather, sans-serif;
+    font-size: 2.0rem;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.card .info{
+    font-size: 1.2rem;
+    line-height: 140%;
+}
+
+.card .donation__input{
+    border-radius: 5px;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    color : white;
+    text-align: center;
+    width: 60%;
+    background-color: #151B29;
+    outline : none;
+    border: 1px solid #505A71;
+}
+
+.btn{
+    font-family: muli,sans-serif;
+    margin-top: 2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #E9B64F;
+    padding: 1.5rem 2rem;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.checkout{
+    text-align: left;
+}
+
+.checkout .info{
+    margin-bottom: 0;
+}
+
+.value{
+    margin-top: 0;
+}
+
+.checkout label{
+    line-height: 140%;
+    display: block;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.checkout input{
+    color : white;
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    background-color: #151B29;;
+    border:none;
+    width: 100%;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid #505A71;
+    border-radius: 0.5rem;
+}
+
+@media (min-width : 900px) {
+
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .card{
+        align-self: flex-start;
+    }
+
+    .checkout{
+        margin-top: 15rem;
+    }
+}
