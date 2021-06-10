@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap');
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    background-color: #EFF5FF;
+    overflow: hidden;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.6rem;
+    line-height: 140%;
+}
+
+p{
+    margin-top: 0;
+}
+
+.card{
+    padding: 5rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 5rem auto;
+}
+.card__heading{
+    font-family: Merriweather,sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-top: 0;
+}
+.card__header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__btn{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000000;
+    color : white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.disablebtn{
+    display: none;
+}
+
+.card__text__info{
+    width: 55%;
+}
+
+.card__timer{
+    font-size: 1.2rem;
+    color : #494949;
+}
+.categories__heading{
+    margin-bottom: 0;
+    color : #494949;
+}
+
+.categories__wrapper{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.category__item{
+    text-transform: capitalize;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    background-color: #EFF5FF;
+    color : #2E29FF;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+@media (max-width : 600px) {
+
+    .card{
+        padding: 3rem;
+    }
+
+    .card__text__info {
+        line-height: 140%;
+        font-size: 1.6rem;
+    }
+
+    .card__heading{
+        font-weight: bold;
+        font-size: 3rem;
+        width: 90%;
+        text-align: left;
+    }
+
+    .card__btn{
+        display: none;
+    }
+
+    .disablebtn{
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 2rem;
+        display: block;
+    }
+
+    .card__text__info{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
