@@ -1,0 +1,214 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 2.1rem;
+}
+
+p{
+    line-height: 150%;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    color : white;
+    background-color: #2E323F;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerbox{
+    align-items: center;
+}
+
+.header__menu{
+    
+    gap: 3rem;
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+
+.header__menu .menu__link{
+    color : white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.signup{
+    padding: 1rem 3rem;
+    background-color: #A59678;
+    border-radius: 3rem;
+}
+
+.hero__box{
+    padding: 15rem 0;
+    background-color: #3B4050;
+    color : white;
+}
+.herobox{
+    gap: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.big__hero__text{
+    width: 100%;
+    line-height: 100%;
+    font-size: 9rem;
+    font-family: 'Oswald', 'sans-serif';
+    margin: 0;
+}
+
+.other__color--big{
+    color : #A59678;
+}
+
+p{
+    font-family: "Montserrat", 'sans-serif';
+    line-height: 140%;
+    font-size: 1.8rem;
+}
+.hero__other--text{
+    font-family: "Montserrat", 'sans-serif' ;
+    line-height: 140%;
+}
+
+.btn{
+    border-radius: 30px;
+    border: none;
+    color : white;
+    background-color: #A59678;
+    font-size: 2.4rem;
+    font-family: 'Oswald', 'sans-serif';
+    padding: 0.5rem 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__section{
+    padding: 5rem 0;
+    background-color: #e6f1f1;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 7rem;
+}
+
+.col{
+    width: 100%;
+}
+
+
+
+.main__section h2{
+    color : #A59678;
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.main__section p{
+    color : black;
+}
+
+
+.secondary__section{
+    margin-top: 5rem;
+    padding: 10rem 0;
+}
+
+.secondary__section h2{
+    margin-top: 0;
+    font-size: 3rem;
+    font-family: 'Oswald', 'sans-serif';;
+    color : #A59678;
+}
+.secondary__section--main{
+    text-align: left;
+    width: 70%;
+}
+.secondary__section--other{
+    width: 30%;
+}
+
+.rowitem{
+    color : white;
+    padding: 2rem 3rem;
+    background-color: #3B4050;
+}
+
+.rowitem:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+
+.footer{
+    background-color: #3B4050;
+    padding: 5rem 0;
+}
+.footer__heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+    color : white;
+}
+
+.footercol{
+    text-align: left;
+}
+.footercol h4{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 2.1rem;
+    color : #A59678;
+}
+
+.footercol p{
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color : white;
+}
+
+.footer__col1{
+    width: 40%;
+}
+
+.footer__col2,.footer__col3,.footer__col4{
+    width: 12%;
+}
+
+.footercol ul{
+    padding: 0;
+    margin : 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: "Montserrat", 'sans-serif';
+    list-style-type: none;
+    color : white;
+}
+
+.footercol li:not(:last-child){
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
