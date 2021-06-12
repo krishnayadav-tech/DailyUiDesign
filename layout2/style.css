@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1rem;
+    line-height: 150%;
+    font-weight: lighter;
+}
+
+img{
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.center{
+    text-align: center;
+}
+
+
+.resource{
+    padding: 0.8rem 0;
+}
+
+.hero{
+    text-align: center;
+    padding: 20rem 0;
+    background-color: #F3EED9;
+}
+
+h2{
+    margin-top: 0;
+}
+.hero__text{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero__text p{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    margin: 0;
+}
+
+.hero__text h1{
+
+    margin: 0;
+    margin-top: 2rem;
+    color : #824936;
+    font-size: 6rem;
+    font-family: 'Playfair Display', serif;;
+    line-height: 100%;
+}
+
+.container{
+    width: 85%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.main-flex{
+    display: flex;
+    gap: 5rem;
+}
+
+.main__heading{
+    text-align: center;
+    color : #824936;
+    font-size: 3.6rem;
+    font-family: 'Playfair Display', serif;;
+    line-height: 100%;
+}
+
+.main p{
+    font-weight: 400;
+}
+
+.main-cross > * {
+    width: 100%;
+}
+
+.main, .main2, .main3{
+    padding: 10rem 0;
+}
+
+.main2__img, .main3__img{
+    overflow: hidden;
+}
+
+.main2{
+    background-color: #222C2A;
+    color : white;
+}
+
+h2{
+    font-size: 3.6rem;
+    font-family: 'Playfair Display', serif;;
+    line-height: 100%;
+}
+
+.main2 h2, .main3 h2{
+    color : #F3EED9;
+}
+
+.main3{
+    background-color: #824936;
+    color : white;
+}
+
+@media (max-width : 900px) {
+    html{
+        font-size: 50%;
+    }
+    .hero__text{
+        width: 90%;
+    }
+}
+
+@media (max-width : 600px) {
+    html{
+        font-size: 42%;
+    }
+
+    .container{
+        width: 80%;
+    }
+
+    .main__heading{
+        text-align: left;
+    }
+
+    .hero{
+        padding: 15rem 0 ;
+    }
+    .hero__text{
+        width: 90%;
+    }
+
+    .hero__text h1{
+        font-size: 4rem;
+    }
+
+    .main-flex{
+        display: block;
+    }
+
+    .main3__text, .main2__img{
+        margin-top: 5rem;
+    }
+}
