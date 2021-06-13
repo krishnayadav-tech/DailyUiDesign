@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 8-II</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
@@ -10,12 +11,17 @@
 </head>
 <body>
     <div class="header">
-        <div class="container headerbox row">
+        <div class="container headerbox">
             <div class="icon">
                 <h3>CRL</h3>
+                <a href="#" class="menu__toggle">
+                    <span class="toggle__icon menu__toggle--1"></span>
+                    <span class="toggle__icon menu__toggle--2"></span>
+                    <span class="toggle__icon menu__toggle--3"></span>
+                </a>
             </div>
-
-            <ul class="header__menu row">
+            
+            <ul class="header__menu">
                 <li class="header__menu--item"> <a class="menu__link" href="#">HOME</a></li>
                 <li class="header__menu--item"> <a class="menu__link" href="#">About</a></li>
                 <li class="header__menu--item"> <a class="menu__link" href="#">Contact</a></li>
@@ -103,11 +109,11 @@
             <h1 class="footer__heading">just scratching the surface</h1>
             <div class="row">
                 <div class="footer__col1 footercol">
-                    <h4>About the company</h4>
+                    <h3>About the company</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagnaaliqua. Utenimadminim9veniam.</p>
                 </div>
                 <div class="footer__col2 footercol">
-                    <h4>Getting around</h4>
+                    <h3>Getting around</h3>
                     <ul>
                         <li>Home</li>
                         <li>About</li>
@@ -115,7 +121,7 @@
                     </ul>
                 </div>
                 <div class="footer__col3 footercol">
-                    <h4>Other things</h4>
+                    <h3>Other things</h3>
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Dolar</li>
@@ -124,7 +130,7 @@
                     </ul>
                 </div>
                 <div class="footer__col4 footercol">
-                    <h4>And more</h4>
+                    <h3>And more</h3>
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Dolar</li>
@@ -135,5 +141,7 @@
             </div>
         </div>
     </footer>
+<script src="./app.js">
+</script>
 </body>
 </html>
