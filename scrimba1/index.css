@@ -1,0 +1,136 @@
+/* Instructions */
+/* When clicked, the selected card should enlarge (up to you how much) and the price should have a color of #ffd60a*/
+/* The non-selected cards should reduce in opacity */
+/* Stretch goal: add a toggle to display monthly and annual prices */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+}
+
+h1,
+.tagline {
+    text-align: center;   
+}
+
+.tagline {
+    padding-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    background: #001d3d;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.card {
+    cursor: pointer;
+    color: white;
+    background-color: #003566;
+    width: 300px;
+    text-align: center;
+    margin: 1em;
+    padding: 1em 0.25em;
+    position: relative;
+    transition: all 0.2s ease-in;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card ul li {
+    text-align: left;
+    padding: 0 0 1em 0.5em;
+}
+
+.card ul li:last-child {
+    padding-bottom: 5em;
+}
+
+.card-cat ul li::marker {
+    content: '🐱'
+}
+
+.card-lion ul li::marker {
+    content: '🦁'
+}
+
+.card-tiger ul li::marker {
+    content: '🐯'
+}
+
+button {
+    font-family: inherit;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    padding: 1em 2em;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+    background-color: #ffd60a;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    background-color: white;
+}
+
+.scale{
+    transform: scale(1.25);
+    box-shadow: 0 0 25px rgba(0,0,0.25);
+}
+
+.scale p{
+    color : #ffd60a;
+}
+
+.opacity {
+    opacity: 0.25;
+}
+
+.togglebar{
+    width : max-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #273c75;
+    border-radius: 30px;
+}
+
+.togglebar *{
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #003566;
+}
+
+@media (max-width : 900px) {
+    .container{
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container > *{
+        margin: 0 auto;
+    }
+
+    .scale{
+        transform: scale(1.1);
+    }
+}
