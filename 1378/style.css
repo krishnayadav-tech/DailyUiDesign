@@ -1,0 +1,125 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;;
+    height: 100vh;
+    background-color: #D2DFFF;
+}
+
+.container{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width : 70vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    min-height: 70vh;
+}
+.card{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: -20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 50px rgb(0, 0, 0,0.25);
+}
+.contain{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card__heading{
+    font-family: "Merriweather" ,'sans-serif';
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem 2rem;
+    background-color: #F7F7FF;
+    width: 45%;
+    border-radius: 20px;
+}
+
+.border{
+    border :  1px solid #9665FF;
+}
+.col__heading{
+    margin-top: 0;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img__wrapper{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__wrapper img{
+    transform: scale(0.75);
+}
+.dollorprice{
+    font-size: 36px;
+}
+
+.btn{
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: inline-block;
+    border: 1px solid #FFAF65;
+    padding: 2rem 5rem;
+    font-family: "IBM Plex Sans",'sans-serif';
+    font-size: 20px;
+    color : #F07300;
+}
+
+.money{
+    margin: 0;
+}
+
+.col h3{
+    font-size: 20px;
+}
+.offeredcard{
+    position: relative;
+    overflow: hidden;
+}
+
+.offer{
+    right: -80px;
+    top: 15px;
+    background-color: #9665FF;
+    color : white;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.offer__heading{
+    font-size: 14px;
+    padding: 0.85rem 5rem;
+    margin: 0;
+}
